@@ -11,13 +11,22 @@ Version: 1.0.0
 body{
 	background-color: #f5eccf;
 }
+#main-header {
+	background-color: #f5eccf;
+}
+header div.container{
+	max-width: 1250px;
+}
+.et_header_style_left .logo_container{
+	width:50%;
+}
 .et_pb_row{
-	max-width: 1350px!important;
+	max-width: 1250px!important;
 }
 
 /* Navigation */
 .et_pb_fullwidth_menu_0.et_pb_fullwidth_menu{
-	height:100px;
+	height:75px;
 	background: #769e9d; /* Old browsers */
 	background: -moz-linear-gradient(top, #769e9d 0%, #9ebdb8 58%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, #769e9d 0%,#9ebdb8 58%); /* Chrome10-25,Safari5.1-6 */
@@ -41,14 +50,14 @@ ul#menu-menu_2 {
 	border-left:1px solid #9ebdb8;
 	padding:0 2.0em;
 	color:#fff;
-	height:100px;
+	height:75px;
 	font-size:1.05em;
 	font-family: myriad-pro, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	text-transform: uppercase;
 	text-align: center;
-	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 .fullwidth-menu li.single-line{
 	line-height:3.0em;	
@@ -84,14 +93,26 @@ ul#menu-menu_2 {
 	border-left:none;
 	width:100%;
 	display: block;
+	font-size:1.05em;
+	font-family: myriad-pro, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: uppercase;
 	text-align: left;
+	color:#fff;
 	background-color:transparent;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 .fullwidth-menu li > ul > li a:hover{
 	background-color:transparent;
 }
-
 .menu-item-has-children > a:first-child:after{
-	font-size: 0px;
-	color:transparent;
+	display:none;
+}
+#top-menu li > a {
+	color:#4b5374;
+	font-size: 1.25em;
+}
+#top-menu li.current-menu-item > a {
+	color:#4b5374;
 }
