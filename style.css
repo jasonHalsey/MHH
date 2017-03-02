@@ -24,6 +24,11 @@ header div.container{
 	max-width: 1250px!important;
 }
 
+.two-columns{
+	width:50%;
+	float:left;
+}
+
 /* Navigation */
 .et_pb_fullwidth_menu_0.et_pb_fullwidth_menu{
 	height:75px;
