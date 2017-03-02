@@ -1,0 +1,12 @@
+@import 'partials/variables';
+@import 'partials/text-styles';
+@import 'partials/navigation';
+@import 'partials/cust-layout';
+
+body{
+	background-color: $mainBgColor;
+}
+#main-header {
+	background-color: $mainBgColor;
+}
+
