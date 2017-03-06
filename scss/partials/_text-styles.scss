@@ -32,9 +32,13 @@ h4{
 	}
 }
 .news{
+	padding: 0 auto;
 	h2{
 		font-family: $secondaryHeaderFont;
 		color: $teal;
-		font-size: 3.0em; 
+		font-size: 3.0em;
+		padding: 0.75em 0 0 0!important;
+	    margin: 0!important;
+	    line-height: inherit;
 	}
 }

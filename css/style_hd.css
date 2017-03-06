@@ -35,10 +35,16 @@ h4 {
   font-size: 1.5em;
 }
 
+.news {
+  padding: 0 auto;
+}
 .news h2 {
   font-family: "adobe-caslon-pro", serif;
   color: #557473;
   font-size: 3.0em;
+  padding: 0.75em 0 0 0 !important;
+  margin: 0 !important;
+  line-height: inherit;
 }
 
 /* Navigation */
@@ -178,6 +184,97 @@ header div.container {
   width: 50%;
   float: left;
   padding: 0 1.0em;
+}
+@media all and (max-width: 700px) {
+  .two-columns {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+}
+
+#main-footer .container {
+  max-width: 1250px;
+}
+#main-footer .footer-widget {
+  width: 30.666%;
+  margin: 0 3.5% 5.5% 0;
+}
+#main-footer .footer-widget:nth-child(3) {
+  margin-right: 0 !important;
+}
+#main-footer span.mhh_copy {
+  display: inline-block;
+  text-align: right;
+  line-height: 1;
+  padding: 15px 13px 15px 5.0em;
+  color: #ffffff;
+}
+@media all and (max-width: 700px) {
+  #main-footer span.mhh_copy {
+    text-align: center;
+    padding: 0;
+    display: block;
+  }
+}
+#main-footer ul.bottom-nav {
+  text-align: right;
+  display: inline-block;
+}
+#main-footer ul.bottom-nav li {
+  line-height: 1;
+  border-right: 1px solid #ffffff;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+#main-footer ul.bottom-nav li:first-child {
+  border-left: 1px solid #ffffff;
+}
+#main-footer ul.bottom-nav li a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+@media all and (max-width: 700px) {
+  #main-footer ul.bottom-nav {
+    text-align: center;
+  }
+  #main-footer ul.bottom-nav li {
+    border-right: none;
+  }
+  #main-footer ul.bottom-nav li:first-child {
+    border-left: none;
+  }
+}
+#main-footer .footer_menu_container {
+  background-color: #39446d;
+}
+
+#et-footer-nav {
+  background-color: #39446d;
+}
+
+#footer-widgets h4.title {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.5em;
+  color: #f5eccf;
+  padding-bottom: 5px;
+}
+#footer-widgets h5 {
+  font-family: "myriad-pro", sans-serif;
+  font-size: 1.13em;
+  color: #ffffff;
+  font-weight: 700;
+  padding-bottom: 3px;
+}
+#footer-widgets p {
+  font-family: "myriad-pro", sans-serif;
+  font-size: 1.13em;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+#footer-widgets a {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 body {
