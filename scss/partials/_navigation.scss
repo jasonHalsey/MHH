@@ -90,3 +90,38 @@ ul#menu-menu_2 {
 #top-menu li.current-menu-item > a {
 	color:#4b5374;
 }
+.mobile_menu_bar:before{
+	color: $white;
+}
+#et_mobile_nav_menu{
+	.mobile_menu_bar:before{
+		color: $dkblue;
+	}
+}
+
+@media all and (max-width: 700px) {
+	.et_pb_fullwidth_menu .et_mobile_menu {
+		top: 74px;
+		padding: 5%;
+	}
+}
+ 
+@media only screen and (min-width : 981px) and (max-width : 1200px) {
+	.et_pb_fullwidth_menu{
+		.et_mobile_nav_menu {display:block; margin-bottom:10px; margin-top:5px }
+	}
+	nav.fullwidth-menu-nav{ display:none; }
+	.et_pb_fullwidth_menu .et_mobile_menu,
+	.et_pb_fullwidth_menu .et_mobile_menu ul {
+		text-align: left;
+		list-style: none !important;
+		top:70px;
+	}
+	.et_mobile_nav_menu{
+		display: block;
+		float:none;
+	}
+	.et_pb_fullwidth_menu .mobile_menu_bar:before {
+		top: 18px;
+	}
+}
