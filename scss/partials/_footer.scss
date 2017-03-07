@@ -33,6 +33,9 @@
 			&:first-child{
 				border-left: 1px solid $white;
 			}
+			&:last-child{
+				border-right: 0;
+			}
 			a{
 				color: $white;
 				text-decoration: underline;
@@ -54,6 +57,11 @@
 }
 #et-footer-nav{
 	background-color: $dkblue;
+	border-top:1px solid #7b7f8f;
+	padding-bottom:1.0em;
+	@media all and (max-width: 700px) {
+		padding-top:1.0em;
+	}
 }
 #footer-widgets{
 	h4.title{

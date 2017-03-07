@@ -13,6 +13,11 @@ h1, h2, h3 {
   padding-bottom: 0;
   line-height: 2.0em;
 }
+@media all and (max-width: 700px) {
+  h1, h2, h3 {
+    line-height: 1.2;
+  }
+}
 
 h2 {
   font-size: 2.0em;
@@ -29,6 +34,11 @@ h4 {
   color: #000000;
   font-size: 1.9em;
   line-height: 1.60;
+}
+@media all and (max-width: 700px) {
+  h4 {
+    line-height: 1.35;
+  }
 }
 
 .et_pb_column_1_3 h3 {
@@ -175,6 +185,17 @@ header div.container {
 .et_header_style_left .logo_container {
   width: 50%;
 }
+@media all and (max-width: 700px) {
+  .et_header_style_left .logo_container {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  #logo {
+    max-height: 75%;
+  }
+}
 
 .et_pb_row {
   max-width: 1250px !important;
@@ -190,6 +211,14 @@ header div.container {
     width: 100%;
     float: none;
     display: block;
+    padding: 1.5em 0 0;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .et_pb_column_1 {
+    padding-left: 0 !important;
+    padding-top: 2.0em;
   }
 }
 
@@ -230,6 +259,9 @@ header div.container {
 #main-footer ul.bottom-nav li:first-child {
   border-left: 1px solid #ffffff;
 }
+#main-footer ul.bottom-nav li:last-child {
+  border-right: 0;
+}
 #main-footer ul.bottom-nav li a {
   color: #ffffff;
   text-decoration: underline;
@@ -251,6 +283,13 @@ header div.container {
 
 #et-footer-nav {
   background-color: #39446d;
+  border-top: 1px solid #7b7f8f;
+  padding-bottom: 1.0em;
+}
+@media all and (max-width: 700px) {
+  #et-footer-nav {
+    padding-top: 1.0em;
+  }
 }
 
 #footer-widgets h4.title {
