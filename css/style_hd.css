@@ -78,6 +78,11 @@ ul#menu-menu_2 {
   display: table;
 }
 
+.fullwidth-menu {
+  border-left: 1px solid #769d9c;
+  border-right: 1px solid #9ebdb8;
+}
+
 .fullwidth-menu li {
   padding-right: 0;
   display: table-cell;
@@ -169,6 +174,17 @@ ul#menu-menu_2 {
   display: none;
 }
 
+ul#top-menu {
+  padding: 0 0 55px;
+}
+ul#top-menu li {
+  padding: 0 20px;
+  border-right: 2px solid #918e84;
+}
+ul#top-menu li:last-child {
+  border-right: 0;
+}
+
 #top-menu li > a {
   color: #4b5374;
   font-size: 1.25em;
@@ -176,6 +192,10 @@ ul#menu-menu_2 {
 
 #top-menu li.current-menu-item > a {
   color: #4b5374;
+}
+
+.et_header_style_left #et-top-navigation nav > ul > li > a {
+  padding-bottom: 0 !important;
 }
 
 .mobile_menu_bar:before {
