@@ -7,8 +7,11 @@
 
 body{
 	background-color: $mainBgColor;
+	border-top: 10px solid $dkblue;
 }
 #main-header {
 	background-color: $mainBgColor;
+	border-top:1px solid $white;
+	border-bottom:1px solid $teal;
 }
 

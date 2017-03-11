@@ -123,7 +123,11 @@ ul#top-menu{
 		padding: 5%;
 	}
 }
- 
+@media only screen and (min-width : 981px) {
+	.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation{
+		padding: 55px 0 0 0!important;
+	}
+}
 @media only screen and (min-width : 981px) and (max-width : 1200px) {
 	.et_pb_fullwidth_menu{
 		.et_mobile_nav_menu {display:block; margin-bottom:10px; margin-top:5px }

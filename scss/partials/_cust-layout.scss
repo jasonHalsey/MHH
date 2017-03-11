@@ -14,6 +14,7 @@ header div.container{
 }
 .et_pb_row{
 	max-width: 1250px!important;
+	padding:15px 0!important;
 }
 .two-columns{
 	width:50%;
@@ -33,4 +34,15 @@ header div.container{
 	}
 }
 
-
+.mission{
+	padding:0 1.0em 0.75em;
+}
+.et_pb_column_2_3 .et_pb_row_inner{
+	padding:0;
+}
+.et_pb_gutters3 .et_pb_column_2_3 .et_pb_module{
+	margin-bottom: 2.0%;
+}
+.et_pb_gutters3 .et_pb_row .et_pb_column_single.et_pb_column_1_3 .et_pb_module{
+	margin-bottom: 2.0%;
+}

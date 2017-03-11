@@ -7,25 +7,39 @@ a {
   color: #726df1;
 }
 
-h1, h2, h3 {
+h1 {
+  font-family: "adobe-caslon-pro", serif;
+  color: #39446d;
+  font-size: 4.0em;
+  font-weight: 400;
+  padding-bottom: 0;
+}
+
+h2 {
   font-family: "myriad-pro", sans-serif;
   font-weight: 600;
   padding-bottom: 0;
   line-height: 2.0em;
+  font-size: 2.0em;
 }
 @media all and (max-width: 700px) {
-  h1, h2, h3 {
+  h2 {
     line-height: 1.2;
   }
 }
 
-h2 {
-  font-size: 2.0em;
-}
-
 h3 {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 600;
+  padding-bottom: 0;
+  line-height: 2.0em;
   font-size: 2.0em;
   color: #39446d;
+}
+@media all and (max-width: 700px) {
+  h3 {
+    line-height: 1.2;
+  }
 }
 
 h4 {
@@ -38,6 +52,19 @@ h4 {
 @media all and (max-width: 700px) {
   h4 {
     line-height: 1.35;
+  }
+}
+
+h5 {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 1.25em;
+  line-height: 1.0;
+}
+@media all and (max-width: 700px) {
+  h5 {
+    line-height: 1.05;
   }
 }
 
@@ -212,6 +239,11 @@ ul#top-menu li:last-child {
     padding: 5%;
   }
 }
+@media only screen and (min-width: 981px) {
+  .et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+    padding: 55px 0 0 0 !important;
+  }
+}
 @media only screen and (min-width: 981px) and (max-width: 1200px) {
   .et_pb_fullwidth_menu .et_mobile_nav_menu {
     display: block;
@@ -260,6 +292,7 @@ header div.container {
 
 .et_pb_row {
   max-width: 1250px !important;
+  padding: 15px 0 !important;
 }
 
 .two-columns {
@@ -281,6 +314,22 @@ header div.container {
     padding-left: 0 !important;
     padding-top: 2.0em;
   }
+}
+
+.mission {
+  padding: 0 1.0em 0.75em;
+}
+
+.et_pb_column_2_3 .et_pb_row_inner {
+  padding: 0;
+}
+
+.et_pb_gutters3 .et_pb_column_2_3 .et_pb_module {
+  margin-bottom: 2.0%;
+}
+
+.et_pb_gutters3 .et_pb_row .et_pb_column_single.et_pb_column_1_3 .et_pb_module {
+  margin-bottom: 2.0%;
 }
 
 #main-footer .container {
@@ -385,8 +434,11 @@ header div.container {
 
 body {
   background-color: #f5eccf;
+  border-top: 10px solid #39446d;
 }
 
 #main-header {
   background-color: #f5eccf;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #557473;
 }

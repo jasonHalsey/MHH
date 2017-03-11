@@ -5,23 +5,36 @@ body{
 a {
 	color:$midBlue;
 }
-h1, h2, h3 {
+h1{
+	font-family: $secondaryHeaderFont;
+	color:$dkblue;
+	font-size:4.0em;
+	font-weight: 400;
+	padding-bottom: 0;
+}
+h2{
 	font-family: $mainBodyFont;
 	font-weight: 600;
 	padding-bottom: 0;
 	line-height: 2.0em;
+	font-size: 2.0em;
 	@media all and (max-width: 700px) {
 		line-height: 1.2;
 	}
 }
 
-h2{
-	font-size: 2.0em;
-}
 h3{
+	font-family: $mainBodyFont;
+	font-weight: 600;
+	padding-bottom: 0;
+	line-height: 2.0em;
 	font-size: 2.0em;
 	color:$dkblue;
+	@media all and (max-width: 700px) {
+		line-height: 1.2;
+	}
 }
+	
 h4{
 	font-family: $mainBodyFont;
 	font-weight: 400;
@@ -30,6 +43,16 @@ h4{
 	line-height: 1.60;
 	@media all and (max-width: 700px) {
 		line-height: 1.35;
+	}
+}
+h5{
+	font-family: $mainBodyFont;
+	font-weight: 700;
+	color: $black;
+	font-size: 1.25em;
+	line-height: 1.0;
+	@media all and (max-width: 700px) {
+		line-height: 1.05;
 	}
 }
 .et_pb_column_1_3{
