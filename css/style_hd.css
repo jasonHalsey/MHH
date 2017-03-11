@@ -16,11 +16,13 @@ h1 {
 }
 
 h2 {
-  font-family: "myriad-pro", sans-serif;
+  font-family: "adobe-caslon-pro", serif;
+  color: #557473;
+  font-size: 3em !important;
+  padding: 0.55em 0 0 0 !important;
+  margin: 0 !important;
+  line-height: 1.0em;
   font-weight: 600;
-  padding-bottom: 0;
-  line-height: 2.0em;
-  font-size: 2.0em;
 }
 @media all and (max-width: 700px) {
   h2 {
@@ -74,14 +76,6 @@ h5 {
 
 .news {
   padding: 0 auto;
-}
-.news h2 {
-  font-family: "adobe-caslon-pro", serif;
-  color: #557473;
-  font-size: 3.0em;
-  padding: 0.75em 0 0 0 !important;
-  margin: 0 !important;
-  line-height: inherit;
 }
 
 /* Navigation */
