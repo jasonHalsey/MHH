@@ -1,4 +1,5 @@
 @import 'partials/variables';
+@import 'partials/mixins';
 @import 'partials/text-styles';
 @import 'partials/navigation';
 @import 'partials/cust-layout';
@@ -10,8 +11,12 @@ body{
 	border-top: 10px solid $dkblue;
 }
 #main-header {
-	background-color: $mainBgColor;
 	border-top:1px solid $white;
 	border-bottom:1px solid $teal;
+	background: #dcd1ac; /* Old browsers */
+	background: -moz-linear-gradient(top, #dcd1ac 0%, #f5eccf 37%, #f5eccf 94%, #f5eccf 94%, #f5eccf 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #dcd1ac 0%,#f5eccf 37%,#f5eccf 94%,#f5eccf 94%,#f5eccf 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #dcd1ac 0%,#f5eccf 37%,#f5eccf 94%,#f5eccf 94%,#f5eccf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcd1ac', endColorstr='#f5eccf',GradientType=0 ); /* IE6-9 */
 }
 
